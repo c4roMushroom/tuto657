@@ -1,0 +1,235 @@
+/* body {
+    background-color: #dfdfdf;
+}
+
+#contenedor {
+    font-size:1em;
+    background-color: #ffffff;
+    border:#d3d3d3 1px solid;
+    text-align: justify;
+    margin: 10px auto;
+    width : 900px ;
+    overflow: hidden;
+}
+
+#encabezado {
+    width: 900px;
+    height: 150px;
+    background-color: crimson;
+    border: #d3d3d3 1px solid ;
+    background-position-y: -45px;
+}
+
+#encabezado h1 {
+    text-align: center ;
+    margin-top: 50px;
+}
+
+#contenido {
+    border: #d3d3d3 1px solid ;
+    margin: 20px 20px 10px;
+    padding: 10px 15px;
+}
+
+#contenido h2 {
+    color : #00ffae;
+    border-bottom: #CFBFB5 1px solid;
+}
+
+#menu {
+    float: left;
+    width: 120px;
+}
+
+div#contenido {
+    border: #d3d3d3 1px solid ;
+    margin: 20px 20px 10px 180px;
+    padding: 10px 15px;
+}
+
+#menu {
+    float: left;
+    width: 120px;
+}
+
+#menu li {
+    border: #d3d3d3 3px solid;
+    background-color: #00ffae;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 30px;
+    list-style: none;
+}
+
+#boton {
+    text-decoration: none;
+    color: #f31a1a;
+}
+
+.boton {
+    text-decoration: none;
+    color: #f31a1a;
+} */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contenido {
+    padding-top: 10px;
+    
+}
+
+#encabezado {
+    text-align: center;
+}
+
+#menu {
+    list-style: none;
+    overflow: hidden;
+    padding: 15px;
+    margin-top: -15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#btncr {
+    background-color: chartreuse;
+    text-decoration-color: black;
+    padding: 5px 11px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
+    position: absolute;
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+#btncon {
+    background-color: rgb(248, 122, 63);
+    text-decoration-color: black;
+    padding: 5px 11px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 10%;
+    color: black;
+
+}
+
+#btncr:hover {
+    box-shadow: none;
+    transition: 1.2s;
+}
+
+#btncon:hover {
+    box-shadow: none;
+    transition: 1.2s;
+}
+
+#tcreate tr{
+    display: inline-block;
+    /* background-color: bisque; */
+    margin-right: 5px;
+}
+
+#tcreate {
+    border-bottom: 1px solid black;
+    display: flex;
+    padding: 0px 0px 8px 15px;
+    margin-bottom: 10px;
+
+}
+
+#autost{
+    display:inline-flex;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 330px;
+    
+}
+
+#titulos th {
+    font-size: 20px;
+    background-color: rgba(50, 207, 255, 0.836);
+    padding: 10px 18px;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px rgba(6, 63, 80, 0.836);
+    
+}
+
+#celda {
+    background-color: rgb(248, 255, 255);
+    padding: 10px 18px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgb(14, 13, 13);
+    text-align: center;
+}
+
+#boton {
+    color: crimson;
+    font-weight: 700;
+}
+
+#boton:hover {
+    color: rgb(255, 0, 51);
+    font-weight: 700;
+}
+
+#botonE {
+    color: rgb(20, 220, 103);
+    font-weight: 700;
+}
+
+#botonE:hover {
+    color: rgb(136, 255, 0);
+    font-weight: 700;
+}
+
+#placa, #marca, #modelo, #color, #edtAuto, .consultar {
+    background-color: rgb(219, 232, 232);
+    box-shadow: 2px 2px 2px rgb(154, 154, 154);
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#placa:hover, #marca:hover, #modelo:hover, #color:hover, #edtAuto:hover, .consultar:hover {
+    background-color: rgb(154, 154, 154);
+    box-shadow: none;
+    border: none;
+    transition: 1.2s;
+}
+
+#placa:focus, #marca:focus, #modelo:focus, #color:focus, #edtAuto:focus, .consultar:focus {
+    border: none;
+    outline: none;
+    
+}
+
+#asignarEnviar, .consul, #edit {
+    background-color: rgb(6, 30, 165);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 232, 232);
+    padding: 4px 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#asignarEnviar:hover, .consul:hover, #edit:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 4px 8px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 1.2s;
+
+}
+
+
